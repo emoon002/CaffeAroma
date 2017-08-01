@@ -1,0 +1,64 @@
+/* Contact Info */
+.contact-content {
+    height: 40%;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid darkred;
+}
+
+.contact-left {
+    width: 50%;
+    float: left;
+}
+
+.contact-right {
+    width: 50%;
+    float: right;
+}
+
+.contact-info {
+    vertical-align: middle;
+    text-align: justify;
+    line-height: 100%;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.phone-link {
+    text-decoration: underline;
+}
+
+#map {
+    margin-top: 3%;
+}
+
+.banner-wrapper {
+    height: 30%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    border-top: 1px solid darkred;
+}
+
+/*
+.banner-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+*/
+
+.contact {
+    background-size: cover;
+    position: relative;
+}
+
+.contact-banner {
+    background-image: url('../img/cafe6.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
