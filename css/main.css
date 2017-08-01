@@ -1,0 +1,177 @@
+/* General */
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 30px 'Clicker Script', cursive;
+    color: darkred;
+}
+
+div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+.header-wrapper {
+    height: 100px;
+    width: 100%;
+    margin: 0;
+}
+
+.header {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-navigation {
+    float: right;
+    margin-right: 37px;
+}
+
+.header-navigation > li {
+    float: left;
+    position: relative;
+    margin: 0 0 0 30px;
+}
+
+.header > h1 {
+    font: 60px 'Clicker Script', cursive;
+    margin: 0 0 0 30px;
+    vertical-align: middle;
+    line-height: 100px;
+    display: inline;
+}
+
+/* Home Gallery */
+.home-gallery {
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    border: 1px solid darkred;
+}
+
+.home-tile {
+    background-size: cover;
+    float: left;
+    position: relative;
+}
+
+.home-tile-1{
+    background-image: url('../img/cafe4.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 34%;
+}
+.home-tile-2{
+    background-image: url('../img/crepe.jpg');
+    background-position: left;
+    height: 50%;
+    width: 33%;
+}
+.home-tile-3{
+    background-image: url('../img/cafe5.jpg');
+    background-position: center;
+    height: 50%;
+    width: 33%;
+}
+.home-tile-4{
+    background-image: url('../img/latte.jpg');
+    background-position: center;
+    height: 50%;
+    width: 22%;
+}
+.home-tile-5{
+    background-image: url('../img/food3.jpg');
+    background-position: right;
+    height: 50%;
+    width: 22%;
+}
+.home-tile-6{
+    background-image: url('../img/food2.jpg');
+    background-position: right;
+    height: 50%;
+    width: 22%;
+}
+
+.home-tile.home-tile-2, .home-tile.home-tile-3, .home-tile.home-tile-4 {
+    background-repeat: no-repeat;
+}
+
+.home-tile.home-tile-5, .home-tile.home-tile-6 {
+    background-repeat: no-repeat;
+}
+
+/* Footer */
+.footer {
+    height: 100px;
+    width: 100%;
+}
+
+.footer-left {
+    width: 33%;
+    float: left;
+}
+
+.footer-middle {
+    width: 33%;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-right {
+    height: 100%;
+    width: 33%;
+    float: right;
+}
+
+.hours-header {
+    font: bold 15px 'Luta', sans-serif;
+    margin: 15px 0 0 30px;
+}
+
+.hours {
+    font: 15px 'Luta', sans-serif;
+    margin: 0 0 0 30px;
+}
+
+.social {
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.copyright-wrapper {
+    font: 10px 'Luta', sans-serif;
+    margin: 60px 0 0 30px;
+    bottom: 0;
+}
+
+.facebook {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.phone {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 100px;
+}
