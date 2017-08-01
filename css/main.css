@@ -44,12 +44,19 @@ ul {
     margin: 0 0 0 30px;
 }
 
-.header > h1 {
+.site-logo {
     font: 60px 'Clicker Script', cursive;
     margin: 0 0 0 30px;
     vertical-align: middle;
     line-height: 100px;
     display: inline;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 /* Home Gallery */
