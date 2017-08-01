@@ -4,6 +4,7 @@ body, html {
     margin: 0;
     font: 30px 'Clicker Script', cursive;
     color: darkred;
+    overflow: hidden;
 }
 
 div {
