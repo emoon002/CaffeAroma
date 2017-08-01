@@ -184,6 +184,14 @@ ul {
     line-height: 100px;
 }
 
+.yelp {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
 .phone-link {
     text-decoration: underline;
 }
