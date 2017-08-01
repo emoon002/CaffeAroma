@@ -59,6 +59,10 @@ ul {
     margin-left: 20px;
 }
 
+.selected {
+    border-bottom: 1px solid darkred;
+}
+
 /* Home Gallery */
 .home-gallery {
     height: 70%;
@@ -193,5 +197,5 @@ ul {
 }
 
 .phone-link {
-    text-decoration: underline;
+    border-bottom: 1px solid darkred;
 }
