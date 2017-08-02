@@ -206,6 +206,14 @@ ul {
     line-height: 100px;
 }
 
+.wifi {
+    height: 40px;
+    width: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
 .phone-link {
     border-bottom: 1px solid darkred;
 }

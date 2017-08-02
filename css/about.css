@@ -1,0 +1,52 @@
+/* Banner */
+.about {
+    background-size: cover;
+    position: relative;
+}
+
+.about-banner {
+    background-image: url('../img/cafe6.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    -webkit-filter: brightness(50%);
+}
+
+/* About */
+.about-content-wrapper {
+    height: 40%;
+    width: 100%;
+    margin: 0; 
+    overflow: hidden;
+    border: 1px solid darkred;
+}
+
+.about-content-left {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.about-content-right {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.about-content-right > img {
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.about-info {
+    vertical-align: middle;
+    text-align: justify;
+    line-height: 100%;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.about-info > p {
+    font: 20px 'Luta', sans-serif;
+}
