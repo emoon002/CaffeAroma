@@ -1,0 +1,70 @@
+/* Banner */
+
+.menu {
+    background-size: cover;
+    position: relative;
+}
+
+.menu-banner {
+    background-image: url('../img/cafe7.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    -webkit-filter: brightness(50%);
+}
+
+/* Menu */
+
+.menu-wrapper {
+    height: 40%;
+    width: 100%;
+    margin: 0; 
+    overflow: hidden;
+    border: 1px solid darkred;
+}
+
+/*
+.menu-image {
+    background-image: url('../img/camenu.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+*/
+
+.menu-left {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.menu-right {
+    height: 100%;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.menu-info {
+    vertical-align: middle;
+    text-align: justify;
+    line-height: 100%;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.menu-info > p {
+    font: 20px 'Luta', sans-serif;
+}
+
+.menu-link {
+    vertical-align: middle;
+    line-height: 100%;
+}
+
+.menu-button {
+    height: 300px;
+    width: 300px;
+}

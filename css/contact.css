@@ -24,16 +24,12 @@
     width: 40%;
 }
 
-#map {
-    margin-top: 3%;
+.contact-info > p, .contact-info > a {
+    font: 20px 'Luta', sans-serif;
 }
 
-.banner-wrapper {
-    height: 30%;
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    border-top: 1px solid darkred;
+#map {
+    margin-top: 3%;
 }
 
 /*
@@ -57,4 +53,5 @@
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+    -webkit-filter: brightness(50%);
 }
