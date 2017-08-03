@@ -16,7 +16,7 @@
 /* Menu */
 
 .menu-wrapper {
-    height: 40%;
+    height: 50%;
     width: 100%;
     margin: 0; 
     overflow: hidden;
@@ -50,7 +50,6 @@
 .menu-info {
     vertical-align: middle;
     text-align: justify;
-    line-height: 100%;
     margin: 0 auto;
     width: 80%;
 }
@@ -61,7 +60,6 @@
 
 .menu-link {
     vertical-align: middle;
-    line-height: 100%;
 }
 
 .menu-button {

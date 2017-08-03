@@ -1,6 +1,6 @@
 /* Contact Info */
 .contact-content {
-    height: 40%;
+    height: 50%;
     width: 100%;
     overflow: hidden;
     border: 1px solid darkred;
@@ -19,7 +19,6 @@
 .contact-info {
     vertical-align: middle;
     text-align: justify;
-    line-height: 100%;
     margin: 0 auto;
     width: 40%;
 }
@@ -29,7 +28,7 @@
 }
 
 #map {
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 /*

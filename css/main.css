@@ -22,7 +22,7 @@ ul {
 
 /* Header */
 .header-wrapper {
-    height: 100px;
+    height: 5%;
     width: 100%;
     margin: 0;
 }
@@ -127,7 +127,7 @@ ul {
 /* Banner */
 
 .banner-wrapper {
-    height: 30%;
+    height: 15%;
     width: 100%;
     margin: 0;
     overflow: hidden;
@@ -136,7 +136,7 @@ ul {
 
 /* Footer */
 .footer {
-    height: 100px;
+    height: 5%;
     width: 100%;
 }
 
