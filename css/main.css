@@ -82,7 +82,6 @@ ul {
 .home-tile-1{
     background-image: url('../img/cafe4.jpg');
     background-position: top;
-    background-repeat: no-repeat;
     height: 100%;
     width: 34%;
 }
@@ -117,7 +116,7 @@ ul {
     width: 22%;
 }
 
-.home-tile.home-tile-2, .home-tile.home-tile-3, .home-tile.home-tile-4 {
+.home-tile.home-tile-1, .home-tile.home-tile-2, .home-tile.home-tile-3, .home-tile.home-tile-4 {
     background-repeat: no-repeat;
 }
 
